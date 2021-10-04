@@ -10,6 +10,60 @@
     </head>
     <body>
 
+        <!-- Box 1 : Top Left Quadrant -->
+        <div id="title" class="box">
+            <h1>Brooklyn Dippo</h1>
+            <p>FEW Assessment</p>
+        </div>
+
+        <!-- Box 1 : Top Right Quadrant -->
+        <div id="select-tool" class ="box">
+            
+            <!-- Width Input -->
+            <label for="width">Width</label>
+            <input 
+                type="number"
+                id="width"
+            > 
+            <!-- Height Input -->
+            <label for="height">Height</label>
+            <input 
+                type="number"
+                id="height"
+            > 
+
+            <!-- Color Input -->
+            <label for="color">Color</label>
+            <input 
+                type="color"
+                id="color"
+            >             
+
+        </div>
+
+        <!-- Box 3 : Bottom Left Quadrant -->
+        <div id="display-tool" class="box">
+
+            <!-- Display Width -->
+            <h2>Width</h2>
+            <p id="display-width"></p>
+
+            <!-- Display Height -->
+            <h2>Height</h2>
+            <p id="display-height"></p>
+            
+            <!-- Display Color -->
+            <h2>Color</h2>
+            <p id="display-color"></p>
+
+        </div>
+
+        <!-- Box 4 : Bottom Right Quadrant -->
+        <div id="show-box" class="box">
+
+            <div id="dynamic-box"></div>
+
+        </div>       
         
         <script src="scripts.js" async defer></script>
     </body>
